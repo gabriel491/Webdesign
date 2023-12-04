@@ -1,0 +1,68 @@
+h1{
+    color:red;
+    margin-left: 300px;
+
+}
+.container {
+    background-color: gray;
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+ .row{
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 5px;
+} 
+.col, .col-3, .col-1, .col-11{
+    border: 2px solid red;
+    height: 100%;
+    margin: 0;
+} 
+/* Limitando largura do container */
+
+#largura-limitada{
+    max-width: 500px;
+}
+
+/* alinhamento vertical de colunas */
+#alinhamento-vertical{
+    height: 250px;
+}
+#alinhamento-vertical .row{
+    height: 100%;
+}
+.col-6 {
+    border: 2px dashed red;
+    height: 50px;
+    margin: 0;
+}    
+
+/* alinhamento horizontal */
+#alinhamento-horizontal {
+    height: 300px;
+}
+
+#alinhamento-horizontal .row{
+    border: 2px solid royalblue;
+    height: 100%;
+    margin: 0;
+}
+
+#alinhamento-horizontal .col-2{
+    border: 2px solid red;
+    margin: 0;
+    height: 50px;
+
+}
+
+/* offset */
+.col-md-3{
+    border: 2px dashed red;
+    height: 50px;
+}
+#offset{
+    height: auto;
+}
